@@ -1,0 +1,21 @@
+html {
+  font-size: 18px;
+  font-family: Arial;
+}
+.listaBonita li{
+  list-style: none;
+  color: #353535;
+  box-sizing: content-box;
+  border: solid 2px;
+  border-color: #a0a0a0;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.listaBonita li.selecionado{
+  border: solid 2px;
+  border-color: #2e79db;
+  background-color: #bfdbff;
+}
+.listaBonita li:hover{
+  background-color: #ebebeb;
+}
