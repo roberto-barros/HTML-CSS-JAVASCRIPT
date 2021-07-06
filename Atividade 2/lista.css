@@ -11,11 +11,14 @@ html {
   padding: 4px 8px;
   border-radius: 3px;
 }
+
+.listaBonita li:hover{
+  background-color: #ebebeb;
+}
+
 .listaBonita li.selecionado{
   border: solid 2px;
   border-color: #2e79db;
   background-color: #bfdbff;
 }
-.listaBonita li:hover{
-  background-color: #ebebeb;
-}
+
