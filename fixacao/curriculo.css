@@ -1,0 +1,44 @@
+body{
+    background-color: lightsteelblue;
+    font-size: 12px; font-family: Arial; line-height: 6px;
+}
+h1{
+    line-height: 1;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 5px;
+    background-color: lightgray;
+    border-width: 3px;
+    border-style: double;
+    border-color:darkgrey;
+    border-radius: 3px;
+}
+p{
+    text-align: left;
+    font-size: 14px;
+}
+
+.box{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pic{
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
